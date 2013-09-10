@@ -1,0 +1,350 @@
+@font-face {
+    font-family: 'VarelaRoundRegular';
+    src: url('img/varelaround-regular-webfont.eot');
+    src: url('img/varelaround-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('img/varelaround-regular-webfont.woff') format('woff'),
+         url('img/varelaround-regular-webfont.ttf') format('truetype'),
+         url('img/varelaround-regular-webfont.svg#VarelaRoundRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OrbitronMedium';
+    src: url('img/orbitron-medium-webfont.eot');
+    src: url('img/orbitron-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('img/orbitron-medium-webfont.woff') format('woff'),
+         url('img/orbitron-medium-webfont.ttf') format('truetype'),
+         url('img/orbitron-medium-webfont.svg#OrbitronMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    
+    font-family: 'VarelaRoundRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    background: #09303e;
+       
+}
+
+#wrapper {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+
+.container {
+    width: 950px;
+    padding: 15px;
+    margin: 0 auto;
+
+}
+
+#header {
+    background: transparent url("img/bg-header.png");
+    height: 190px;
+    width: 980px;
+    margin: 0 auto;
+
+}
+
+    #stars-overlay {
+        background: transparent url("img/starfield-big.png") no-repeat;
+        width: 1150px;
+        height: 280px;
+        position: relative;
+        left: -85px;
+    }
+    
+    #header-content {
+        width: 330px;
+        margin: 0 auto;
+        position: relative;
+        top: 40px;
+    }
+
+    .tagline {
+        color: #e6e302;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        text-shadow: 2px 2px 3px black;
+        text-align: center;
+    }
+
+#content-title {
+    background: url("img/futurama-chars.png") no-repeat center #05212c;
+    width: 980px;
+    height: 145px;
+    margin: 0 auto;
+    padding-top: 15px;
+    margin-top: -20px;
+}
+
+    #site-info {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    #site-info * {
+        margin-top: 10px;
+        text-shadow: 2px 2px 3px black;
+    }
+
+    h1 {
+        color: #78c583;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        color: #f4ffff;
+        font-size: 18px;
+        text-shadow: 2px 2px 3px #a5b7bb;
+        text-align: center;
+    }
+
+    #sci-fi-link {
+        height: 40px;
+        width: 450px;
+        margin: 0 auto;
+
+    }
+
+    #sci-fi-link img {
+        height: 36px;
+        width: 36px;
+        position: relative;
+        top: 5px;
+    }
+
+    #sci-fi-link a {
+        color: #d27a6c;
+        font-size: 18px;
+        text-shadow: 2px 2px 3px #41383b;
+        position: relative;
+        top: -10px;
+        left: 15px;
+    }
+
+
+
+#content {
+    width: 950px;
+    padding: 15px;
+    background: url("img/starfield-small.png") repeat-y #04242f;
+    height: 1470px;
+}
+
+#mainbar{
+    width: 710px;
+    float: left;
+
+}
+
+    .question-summary {
+        width: 680px;
+        height: 68px;
+        padding-top: 15px;
+        border-bottom: 2px dashed #416d6e;
+
+    }
+
+    .question-stats {
+        display: inline;
+    }
+
+    .question-stats a{
+        width: 100%;
+        height: 100%;
+    }
+
+    .votes, .status {
+        float: left;
+        width: 50px;
+        height: 40px;
+        padding: 7.5px;
+        color: #999;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .answered {
+
+    }
+
+    .unanswered {
+
+    }
+
+    .answered-accepted {
+        background-color: #b9e0cb;
+        color: #227b29;
+    }
+
+        .mini-counts {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+    .summary {
+        width: 530px;
+        margin-left: 15px;
+        float: left;
+        padding-top: 7.5px;
+    }
+
+    .summary h3 {
+        margin-bottom: 10px;
+    }
+
+    .summary h3 a {
+        color: #f4d67e;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    .post-tag {
+        text-decoration: none;
+        text-align: center;
+        padding: 20px 10px;
+        background: url("img/tags-bg.png") no-repeat;
+        background-position: 0px 17px;
+        color: #1d3034;
+    }
+
+    .started {
+        min-width: 200px;
+        height: 25px;
+        text-align: right;
+        float: right;
+    }
+
+    .started * {
+        margin-left: 2px;
+    }
+
+    .started a {
+        color: #707f82;
+        text-decoration: none;
+    }
+
+    .user-gravatar img {
+        width: 15px;
+        height: 15px;
+        border: solid 1px #cbd29c;
+    }
+
+.pager {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .fl {
+        float: left;
+    }
+
+    .pager a {
+        text-decoration: none;
+    }
+
+    .page-numbers {
+        font-size: 14px;
+        color: #022231;
+        padding: 10px 12px;
+        margin-right: 10px;
+        box-shadow: 5px 5px 5px #000b0f;
+        background: #a6c5d7;
+    }
+
+    .current {
+        background: #c60d47;
+        color: #ffcbe6;
+    }
+
+
+#sidebar {
+    width: 240px;
+    float: right;
+}
+
+    #sidebar * {
+        margin-top: 10px;
+    }
+
+    .futurama-video {
+        width: 200px;
+        height: 175px;
+        background-color: #ffffff;
+        padding: 0 10px;
+        line-height: .8;
+    }
+
+    .futurama-video img {
+        width: 200px;
+        height: 110px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+
+    .futurama-video .play-button {
+        position: relative;
+        top: -55px;
+        left: 170px;
+        text-indent: -99999px;
+        width: 24px;
+        height: 26px;
+        background: url("img/play_button_small.png");
+        background-position: -10px -8px;
+    }
+
+        .play-button:hover {
+            background-position: -10px -42px;
+        }
+
+    .video-info {
+        position: relative;
+        top: -40px;
+    }
+
+    .video-title a {
+        text-decoration: none;
+        text-shadow: none;
+        text-align: left;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: bold;
+        color: #2c7796;
+    }
+
+    .video-info {
+        color: #9a9790;
+        font-size: 11px;
+        text-align: left;
+    }
+
+
+#footer {
+    width: 980px;
+    margin: 70px auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f9fff8;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 10px;
+}
+
+.sup {
+    font-size: 75%;
+    vertical-align: super;
+}
+
+
+
+
+
